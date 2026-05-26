@@ -6,7 +6,10 @@ library(survival)
 library(survminer)
 
 # Loading Dataset
-lung_cancer <- read.csv("/Users/holly/Desktop/PUBH 3242/lung_cancer_data.csv")
+# Pass the CSV path as the first arg to Rscript, or set LUNG_CANCER_DATA env var.
+args <- commandArgs(trailingOnly = TRUE)
+data_path <- if (length(args) >= 1) args[[1]] else Sys.getenv("LUNG_CANCER_DATA", "data/lung_cancer_data.csv")
+lung_cancer <- read.csv(data_path)
 
 # Convert necessary variables to factors
 lung_cancer <- lung_cancer %>%
