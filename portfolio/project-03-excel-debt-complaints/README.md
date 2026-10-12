@@ -14,6 +14,8 @@ The largest complaint volume was concentrated in a small number of large debt co
 
 ![Debt complaint summary preview](https://hollyakt.github.io/portfolio/assets/debt-complaints.png)
 
-# Resume line
+# Files
 
-“Analyzed 1.21M CFPB debt collection complaints in Excel; identified the largest complaint burden among debt collectors in Texas and Florida and widely variable response timeliness.”
+- `build_excel_analysis.py` downloads the CFPB complaint archive and builds the workbook.
+- `outputs/debt_collection_dashboard.xlsx` contains analysis sheets and charts.
+- `outputs/response_timeline_summary.csv` stores company response timeliness by firm.

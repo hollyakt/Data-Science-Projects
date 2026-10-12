@@ -4,7 +4,7 @@ Which states have the highest burden of heart disease deaths, and how has that c
 
 # Data
 
-A cleaned state-level heart disease deaths dataset assembled for a Tableau Public dashboard. The file includes annual deaths by state for 2015-2022.
+A cleaned state-level heart disease deaths dataset assembled for a Tableau Public dashboard. The file includes annual deaths by state and demographic group for 2015-2022.
 
 # Finding
 
@@ -14,6 +14,8 @@ Heart disease mortality remains highest in the Southeast and Appalachian states,
 
 ![Heart disease dashboard preview](https://hollyakt.github.io/portfolio/assets/heart-disease.png)
 
-# Resume line
+# Files
 
-“Published a Tableau dashboard of heart disease deaths across 50 states, 2015 to 2022; found the Southeast and Appalachia had the highest mortality burden.”
+- `build_tableau_data.py` creates the state-year dataset and summary statistics.
+- `data/state_heart_disease_deaths.csv` is the Tableau-ready dataset.
+- `outputs/heart_disease_dashboard_preview.png` is a static preview of the dashboard concept.

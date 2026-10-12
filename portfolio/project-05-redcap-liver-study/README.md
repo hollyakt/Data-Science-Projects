@@ -14,6 +14,9 @@ The final CRF and validation rules produced a clean synthetic abstraction datase
 
 ![REDCap liver study preview](https://hollyakt.github.io/portfolio/assets/redcap-liver.png)
 
-# Resume line
+# Files
 
-“Designed a REDCap case report form with branching logic and validation; abstracted 25 synthetic patient charts and resolved all data quality flags.”
+- `redcap_data_dictionary.csv` lists the case report form variables and validation rules.
+- `synthetic_liver_chart_data.csv` contains 25 abstracted synthetic records.
+- `redcap_abstraction_sop.md` documents the abstraction workflow.
+- `redcap_quality_summary.R` summarizes the exported data and flags data quality issues.

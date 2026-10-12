@@ -14,6 +14,9 @@ Long ER waits and elevated readmission burden were concentrated in a small group
 
 ![Pennsylvania hospital dashboard preview](https://hollyakt.github.io/portfolio/assets/pa-hospitals.png)
 
-# Resume line
+# Files
 
-“Built a Power BI dashboard merging 3 CMS datasets on Pennsylvania hospitals; found several high-volume facilities had the longest ER waits and elevated readmission burden.”
+- `prepare_pa_hospitals.py` creates the merged PA facility dataset.
+- `queries/power_query_m.txt` contains the Power Query M that mirrors the merge logic.
+- `data/pa_hospital_merge.csv` is the merged Pennsylvania file ready for Power BI.
+- `outputs/pa_hospital_dashboard_preview.png` is a static preview of the dashboard concept.
